@@ -1,12 +1,13 @@
+import React from 'react';
 import './App.css';
-import Home from './pages/Home';
+import Header from './componentes/header/Header'
+import Layout from './componentes/layout/Layout';
 
-function App() {
-  return (
-    <div className="App">
-      <Home/>
-    </div>
-  );
+
+const App = () => {
+    return (
+          <Header/>
+    );
 }
 
 export default App;
